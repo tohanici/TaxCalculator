@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         double price = 35.80;
-        double tax = 0.13;
+        double tax = 1.13;
         int quantity = 10;
         double total = 0;
         String message;
