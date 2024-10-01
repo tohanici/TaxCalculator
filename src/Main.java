@@ -6,7 +6,7 @@ public class Main {
         double total = 0;
         String message;
         message = "i want to buy " + quantity + " shirt!";
-        total = price + tax + quantity;
+        total = price * quantity * tax;
         System.out.println(message);
         System.out.println("Total cost with tax is: " + total );
 
